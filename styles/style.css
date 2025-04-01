@@ -68,9 +68,26 @@ button {
   gap: 30px;
 }
 
-.content__details {
+.result__video-container {
+  height: 386px;
+}
+
+.result__video {
+  object-fit: cover;
+  object-position: center;
   width: 100%;
   height: 100%;
+}
+
+.search-form {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  margin-block-start: 16px;
+}
+
+.content__details {
+  width: 100%;
 }
 
 .content__list-container {
@@ -79,11 +96,35 @@ button {
   margin-block-start: 26px;
 }
 
-.search-form {
+.content__list {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
   justify-content: space-between;
+  gap: 30px;
 }
+
+.content__video-card {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 

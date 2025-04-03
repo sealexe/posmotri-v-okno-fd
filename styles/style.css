@@ -45,10 +45,24 @@ a {
 }
 
 button {
-  font: inherit;
+  font-family: inherit;
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
+  height: 34px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  line-height: 100%;
+}
+
+.search-form__submit-button {
+  width: 194px;
+}
+
+.more-button {
+  width: 100%;
 }
 
 /* Кастомный скроллбар */
@@ -207,6 +221,7 @@ button {
 }
 
 .content__card-link {
+  display: block;
   text-decoration: none;
 }
 
@@ -217,7 +232,10 @@ button {
   line-height: 100%;
   text-transform: uppercase;
   white-space: nowrap;
+  text-overflow: ellipsis;
   margin-block-end: 6px;
+  width: 196px;
+  overflow: hidden;
 }
 
 .content__video-card-description {
